@@ -1,52 +1,59 @@
 # Projeto de Sistemas Operativos
 
-Este repositório contém o projeto desenvolvido no âmbito da disciplina de **Sistemas Operativos**, dividido em três partes progressivas.
+Este repositório contém o projeto desenvolvido no âmbito da disciplina de **Sistemas Operativos**, implementado em **Bash**, que simula um sistema de gestão de voos.
 
-O projeto consiste na implementação de um sistema de gestão de voos e reservas, utilizando scripts em **Bash**, com validações, processamento de dados e manipulação de ficheiros.
+O sistema permite realizar todo o fluxo de um passageiro:
+
+* Compra de bilhete
+* Check-in eletrónico
+* Escolha de lugar
 
 ---
 
 ## Estrutura do Projeto
 
-* `PARTE1/` – Validação de dados e interação com o utilizador
-* `PARTE2/` – Processamento e manipulação de informação
-* `PARTE3/` – Funcionalidades adicionais e integração final
+* `PARTE1/` – Compra de bilhetes e validações iniciais
+* `PARTE2/` – Check-in eletrónico
+* `PARTE3/` – Escolha de lugares no voo
 
 ---
 
-## Descrição das Partes
+## Descrição das Funcionalidades
 
-### Parte 1 – Validações e interação
+### Parte 1 – Compra de Bilhete
 
-* Verificação da existência de ficheiros necessários
+* Validação de ficheiros (`voos.txt`, `passageiros.txt`)
 * Pesquisa de voos por origem/destino
-* Seleção de voos disponíveis
-* Autenticação de utilizadores (ID e senha)
+* Seleção de voo
+* Autenticação do passageiro
+* Atualização de saldo e lugares disponíveis
+* Registo da reserva
 
 ---
 
-### Parte 2 – Processamento de dados
+### Parte 2 – Check-in Eletrónico
 
-* Verificação de saldo do utilizador
-* Atualização de ficheiros (`passageiros.txt`, `voos.txt`)
-* Subtração de saldo após compra
-* Gestão de lugares disponíveis
+* Identificação do passageiro
+* Validação de reservas existentes
+* Realização do check-in
+* Atualização da informação associada ao voo
 
 ---
 
-### Parte 3 – Registo e funcionalidades finais
+### Parte 3 – Escolha de Lugar
 
-* Registo de reservas em ficheiros
-* Consolidação do sistema
-* Integração de todas as funcionalidades anteriores
+* Apresentação de lugares disponíveis
+* Seleção de assento pelo passageiro
+* Validação de disponibilidade
+* Atualização dos dados do voo
 
 ---
 
 ## Tecnologias Utilizadas
 
 * Bash (Shell scripting)
-* Sistema Linux/Unix
-* Manipulação de ficheiros (`grep`, `awk`, `sed`)
+* Ambiente Linux/Unix
+* Ferramentas: `grep`, `awk`, `sed`
 
 ---
 
@@ -57,13 +64,13 @@ O projeto consiste na implementação de um sistema de gestão de voos e reserva
    * `voos.txt`
    * `passageiros.txt`
 
-2. Dar permissões de execução ao script:
+2. Dar permissões de execução:
 
 ```bash
 chmod +x compra_bilhete.sh
 ```
 
-3. Executar o script:
+3. Executar:
 
 ```bash
 ./compra_bilhete.sh
@@ -73,9 +80,9 @@ chmod +x compra_bilhete.sh
 
 ## Observações
 
-* O projeto segue o enunciado fornecido na disciplina.
-* O código contém comentários detalhados explicando cada etapa.
-* Cada parte do projeto encontra-se organizada em pastas próprias.
+* O projeto segue o enunciado da disciplina
+* Os scripts estão organizados por partes
+* Cada parte representa uma fase do sistema de reservas
 
 ---
 
