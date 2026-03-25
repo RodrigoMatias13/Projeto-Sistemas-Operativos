@@ -1,34 +1,30 @@
-# Parte 2 – Processamento de Dados
+# Parte 2 – Check-in Eletrónico
 
-Esta parte do projeto trata do **processamento da compra do bilhete**, incluindo validações de saldo e atualização de ficheiros.
+Esta parte do projeto implementa o processo de **check-in eletrónico**, permitindo ao passageiro confirmar a sua presença no voo após a compra do bilhete.
 
 ---
 
 ## Funcionalidades
 
-* Verificação do saldo do passageiro
-* Comparação entre saldo e preço do voo
-* Subtração do valor do bilhete ao saldo
-* Atualização do ficheiro `passageiros.txt`
-* Atualização dos lugares disponíveis no ficheiro `voos.txt`
+* Identificação do passageiro
+* Validação de dados e reservas
+* Associação do passageiro ao voo
+* Realização do check-in
+* Atualização da informação do passageiro
 
 ---
 
-## Como Funciona
+## Objetivo
 
-1. O sistema verifica se o utilizador tem saldo suficiente
-2. Caso tenha:
-
-   * O saldo é atualizado
-   * Os lugares disponíveis são decrementados
-3. Caso não tenha:
-
-   * A operação é cancelada
+Simular o processo real de **check-in de voos**, garantindo que apenas passageiros com reserva válida podem realizar o check-in.
 
 ---
 
 ## Observações
 
-* Utiliza ferramentas como `sed` para modificar ficheiros.
+* Depende da Parte 1 (compra de bilhete)
+* Envolve leitura e atualização de ficheiros
+* Implementado com scripts Bash
+
 * Manipula dados diretamente a partir de ficheiros `.txt`.
 * Depende da validação feita na Parte 1.
