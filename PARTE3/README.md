@@ -1,26 +1,26 @@
-# Parte 3 – Registo e Integração Final
+# Parte 3 – Escolha de Lugar
 
-Esta parte final do projeto foca-se no **registo das operações** e na **integração completa do sistema**.
+Esta parte do projeto permite ao passageiro selecionar o seu **lugar no avião**, após a realização do check-in.
 
 ---
 
 ## Funcionalidades
 
-* Registo de reservas no ficheiro `relatorio_reservas.txt`
-* Consolidação de todas as etapas do processo
-* Garantia da consistência dos dados
+* Apresentação dos lugares disponíveis
+* Seleção de lugar
+* Validação da disponibilidade
+* Atualização da informação do voo
 
 ---
 
 ## Objetivo
 
-* Garantir que todas as operações realizadas são registadas corretamente
-* Completar o fluxo de compra de bilhetes
-* Integrar todas as partes do projeto num sistema funcional
+Simular o processo de **seleção de lugares**, garantindo consistência e evitando conflitos (lugares duplicados).
 
 ---
 
 ## Observações
 
-* Esta parte depende das anteriores para funcionamento completo
-* O sistema final simula um processo real de reserva de voos
+* Depende da Parte 2 (check-in)
+* Completa o fluxo do sistema de reservas
+* Utiliza manipulação de ficheiros em Bash
