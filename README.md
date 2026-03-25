@@ -51,9 +51,10 @@ O sistema permite realizar todo o fluxo de um passageiro:
 
 ## Tecnologias Utilizadas
 
-* Bash (Shell scripting)
-* Ambiente Linux/Unix
-* Ferramentas: `grep`, `awk`, `sed`
+- **Bash (Shell scripting)** – Parte 1 (compra de bilhetes)
+- **C** – Parte 2 e Parte 3 (check-in e escolha de lugares)
+- **Linux/Unix**
+- **Ferramentas:** grep, awk, sed
 
 ---
 
