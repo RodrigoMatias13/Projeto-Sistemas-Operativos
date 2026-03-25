@@ -1,6 +1,6 @@
-# Parte 1 – Validações e Interação
+# Parte 1 – Compra de Bilhete e Validações
 
-Esta parte do projeto foca-se na **validação de dados** e na **interação com o utilizador**, permitindo iniciar o processo de compra de bilhetes de voo.
+Esta parte do projeto implementa o processo de **compra de bilhetes de voo**, incluindo validações e interação com o utilizador.
 
 ---
 
@@ -10,34 +10,32 @@ Esta parte do projeto foca-se na **validação de dados** e na **interação com
 
   * `voos.txt`
   * `passageiros.txt`
-* Pesquisa de voos por **origem ou destino**
+* Pesquisa de voos por origem ou destino
 * Listagem de voos disponíveis
-* Seleção de voo pelo utilizador
+* Seleção de voo
 * Validação do ID do passageiro
 * Validação da senha
+* Verificação de saldo
+* Atualização do ficheiro `passageiros.txt`
+* Atualização do ficheiro `voos.txt`
+* Registo da reserva em `relatorio_reservas.txt`
 
 ---
 
 ## Como Executar
 
-1. Garantir que os ficheiros necessários existem:
-
-   * `voos.txt`
-   * `passageiros.txt`
-
-2. Dar permissões ao script:
-
 ```bash
 chmod +x compra_bilhete.sh
-```
-
-3. Executar:
-
-```bash
 ./compra_bilhete.sh
 ```
 
 ---
+
+## Observações
+
+* Utiliza comandos como `grep`, `awk` e `sed`
+* Realiza validações em várias etapas do processo
+* Representa a primeira fase do sistema de reservas
 
 ## Observações
 
